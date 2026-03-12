@@ -1,0 +1,60 @@
+colorScheme = "montenegro"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+
+defaultThemeColor = "#000000"
+
+enableSearch = true
+enableCodeCopy = true
+enableImageLazyLoading = true
+enableImageWebp = true
+
+fingerprintAlgorithm = "sha256"
+
+[header]
+  layout = "hybrid"
+  logo = "img/white-caesars-window100.png"
+  logoDark = "img/black-caesars-window100.png"
+  showTitle = false
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "profile"
+  showRecent = false
+  recentLimit = 3
+
+[article]
+  showDate = true
+  showDateUpdated = true
+  # showAuthor = true
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  editAppendPath = true
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = false
+  showWordCount = false
+  showComments = false
+
+[list]
+  showBreadcrumbs = true
+  showSummary = true
+  showTableOfContents = false
+  showTaxonomies = false
+  groupByYear = false
+  paginationWidth = 1
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
+[taxonomy]
+  showTermCount = true

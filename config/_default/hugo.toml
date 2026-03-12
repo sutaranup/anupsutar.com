@@ -1,0 +1,20 @@
+theme = "congo"
+
+baseURL = "https://anupsutar.com/"
+defaultContentLanguage = "en"
+
+ignoreLogs = ['warning-goldmark-raw-html']
+enableRobotsTXT = true
+summaryLength = 0
+
+timeout = "210s"
+
+[pagination]
+  pagerSize = 5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-QMJW2TPVMJ"
